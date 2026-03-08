@@ -12,11 +12,11 @@ public class App {
         double nota2;
         double nota3; 
 
-        System.out.println("Digite a nota 1:");
+        System.out.print("Digite a nota 1: ");
         nota1 = scanner.nextDouble();
-        System.out.println("Digite a nota 2:");
+        System.out.print("Digite a nota 2: ");
         nota2 = scanner.nextDouble();
-        System.out.println("Digite a nota 3:");
+        System.out.print("Digite a nota 3: ");
         nota3 = scanner.nextDouble();
 
     double mediafinal = ((nota1 + nota2 + nota3) / 3);
